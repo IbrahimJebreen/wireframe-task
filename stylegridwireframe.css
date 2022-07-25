@@ -1,0 +1,41 @@
+    
+header div {
+    height: 100px;
+    width: 60%;
+    background-color: black;
+    margin-left: 350px;
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    align-items: center;
+}
+
+header div img{
+    margin-left: 70px;
+    display: grid;
+    align-items: center;
+}
+header div a {
+    margin-left: 95px;
+    text-decoration: none;
+    color: rgb(130, 128, 133);
+}
+main div{
+    display: grid;
+    margin-left: 420px;
+    grid-template-columns: repeat(3,330px);
+}
+main div section{
+    margin-left: 184px;
+    width: 450px;
+    height: 402px;
+    font-size: larger;
+    overflow: clip;
+}
+
+footer div{
+    height: 120px;
+    width: 60%;
+    background-color: black;
+    margin-left: 350px;
+}
+
