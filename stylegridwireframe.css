@@ -21,15 +21,20 @@ header div a {
 }
 main div{
     display: grid;
+    position: relative;
     margin-left: 420px;
     grid-template-columns: repeat(3,330px);
 }
 main div section{
     margin-left: 184px;
     width: 450px;
-    height: 402px;
+     height: 402px;
+    height: 350px;
     font-size: larger;
-    overflow: clip;
+    overflow:scroll;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 
 footer div{
@@ -37,5 +42,14 @@ footer div{
     width: 60%;
     background-color: black;
     margin-left: 350px;
+}
+input {
+    color: aliceblue;
+    background-color: black;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 513px;
 }
 
